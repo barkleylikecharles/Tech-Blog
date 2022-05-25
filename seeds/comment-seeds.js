@@ -19,7 +19,7 @@ const commentdata = [
   {
     comment_text: "Link didn't work for me?",
     user_id: 3,
-    post_id: 18
+    post_id: 5
   },
   {
     comment_text: 'Can anyone point me in the direction of more information?',
@@ -29,7 +29,7 @@ const commentdata = [
   {
     comment_text: 'Totally disagree.',
     user_id: 1,
-    post_id: 20
+    post_id: 10
   },
   {
     comment_text: 'Great article',
@@ -49,7 +49,7 @@ const commentdata = [
   {
     comment_text: 'Love the blog. Keep writing!',
     user_id: 6,
-    post_id: 20
+    post_id: 16
   },
   {
     comment_text: 'What do you think about Trinity?',
@@ -87,7 +87,7 @@ const commentdata = [
     comment_text:
       'Interesting blog piece',
     user_id: 2,
-    post_id: 20
+    post_id: 12
   },
   {
     comment_text: 'Great blog piece',

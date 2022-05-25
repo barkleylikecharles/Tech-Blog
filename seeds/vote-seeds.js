@@ -3,7 +3,7 @@ const { Vote } = require('../models');
 const votedata = [
   {
     user_id: 9,
-    post_id: 19
+    post_id: 12
   },
   {
     user_id: 1,
@@ -15,11 +15,7 @@ const votedata = [
   },
   {
     user_id: 8,
-    post_id: 19
-  },
-  {
-    user_id: 9,
-    post_id: 3
+    post_id: 9
   },
   {
     user_id: 3,
@@ -35,15 +31,15 @@ const votedata = [
   },
   {
     user_id: 3,
-    post_id: 18
+    post_id: 14
   },
   {
     user_id: 9,
-    post_id: 16
+    post_id: 11
   },
   {
     user_id: 3,
-    post_id: 17
+    post_id: 7
   },
   {
     user_id: 10,
@@ -63,7 +59,7 @@ const votedata = [
   },
   {
     user_id: 9,
-    post_id: 18
+    post_id: 8
   },
   {
     user_id: 6,
@@ -83,7 +79,7 @@ const votedata = [
   },
   {
     user_id: 10,
-    post_id: 18
+    post_id: 10
   },
   {
     user_id: 4,
@@ -99,11 +95,11 @@ const votedata = [
   },
   {
     user_id: 6,
-    post_id: 17
+    post_id: 12
   },
   {
     user_id: 1,
-    post_id: 15
+    post_id: 9
   },
   {
     user_id: 7,
@@ -127,7 +123,7 @@ const votedata = [
   },
   {
     user_id: 2,
-    post_id: 18
+    post_id: 2
   },
   {
     user_id: 9,
@@ -151,11 +147,11 @@ const votedata = [
   },
   {
     user_id: 9,
-    post_id: 20
+    post_id: 3
   },
   {
     user_id: 1,
-    post_id: 17
+    post_id: 2
   },
   {
     user_id: 10,
@@ -171,7 +167,7 @@ const votedata = [
   },
   {
     user_id: 6,
-    post_id: 12
+    post_id: 6
   },
   {
     user_id: 5,
@@ -183,7 +179,7 @@ const votedata = [
   },
   {
     user_id: 8,
-    post_id: 18
+    post_id: 8
   },
   {
     user_id: 3,
