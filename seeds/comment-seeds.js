@@ -44,17 +44,17 @@ const commentdata = [
   {
     comment_text: 'Great article',
     user_id: 6,
-    post_id: 12
+    post_id: 2
   },
   {
     comment_text: 'Love the blog. Keep writing!',
     user_id: 6,
-    post_id: 16
+    post_id: 6
   },
   {
     comment_text: 'What do you think about Trinity?',
     user_id: 3,
-    post_id: 14
+    post_id: 4
   },
   {
     comment_text: 'Which sites are using this?',
@@ -71,7 +71,7 @@ const commentdata = [
     comment_text:
       'Keep writing.',
     user_id: 5,
-    post_id: 14
+    post_id: 4
   },
   {
     comment_text: 'Great post',
@@ -87,24 +87,24 @@ const commentdata = [
     comment_text:
       'Interesting blog piece',
     user_id: 2,
-    post_id: 12
+    post_id: 10
   },
   {
     comment_text: 'Great blog piece',
     user_id: 4,
-    post_id: 11
+    post_id: 10
   },
   {
     comment_text:
       'We need more articles.',
     user_id: 5,
-    post_id: 13
+    post_id: 3
   },
   {
     comment_text:
       'Great blog post',
     user_id: 9,
-    post_id: 16
+    post_id: 10
   },
   {
     comment_text: 'Thumbs up',

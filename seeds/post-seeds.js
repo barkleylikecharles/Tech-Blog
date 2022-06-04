@@ -8,7 +8,7 @@ const postdata = [
   },
   {
     title: 'Bootcamp Review',
-    post_content: "ipsum",
+    post_content: "Decidign whether or not taking a bootcamp is worth it.",
     user_id: 8
   },
   {
