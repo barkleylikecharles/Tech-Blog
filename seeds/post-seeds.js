@@ -3,83 +3,83 @@ const { Post } = require('../models');
 const postdata = [
   {
     title: 'Did Ruby on Rails go off the track?',
-    post_content: "lhioh",
+    post_content: "Three years ago this was the premier language to learn. This just shows how fast technology updates and the importance of continuing to learn throughout your career. ",
     user_id: 10
   },
   {
     title: 'Bootcamp Review',
-    post_content: "Decidign whether or not taking a bootcamp is worth it.",
+    post_content: "Deciding whether or not taking a bootcamp is worth it?  There are a lot of factors to consider.  First and foremost; how do you handle problems and diversity.  Do you reach out for help?  Do you enjoy problem solving?  Consider how you will handle a course with little direction; for good reason.",
     user_id: 8
   },
   {
     title: 'Best Programmer Jokes',
-    post_content: 'https://europa.eu/parturient/montes/nascetur/ridiculus/mus/etiam/vel.aspx',
+    post_content: "Two bytes meet. The first byte asks, Are you ill? The second byte replies, No, just feeeling a big off.",
     user_id: 1
   },
   {
-    title: 'Nunc purus.',
-    post_content: 'http://desdev.cn/enim/blandit/mi.jpg',
+    title: 'Best Tech Meetups in the Northeast United States',
+    post_content: 'Search for a tech meetup here https://www.meetup.com/find/us--ma--boston/technology/',
     user_id: 4
   },
   {
-    title: 'Pellentesque eget nunc.',
-    post_content: 'http://google.ca/nam/nulla/integer.aspx',
+    title: 'Navigating Development as a Women in the Industry',
+    post_content: 'Tired of being asked to take notes; or organize the files? How to own your development career journey.',
     user_id: 7
   },
   {
-    title: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
-    post_content: 'https://stanford.edu/consequat.png',
+    title: 'Best New Technology for Developers',
+    post_content: 'Setting up a new office as a developer.  Here are few must have based on experience.',
     user_id: 4
   },
   {
-    title: 'In hac habitasse platea dictumst.',
-    post_content: 'http://edublogs.org/non/ligula/pellentesque.js',
+    title: 'What to expect during the interview process',
+    post_content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     user_id: 1
   },
   {
-    title: 'Morbi non quam nec dui luctus rutrum.',
-    post_content: 'http://ucla.edu/consequat/nulla.html',
+    title: 'How to Negotiate Your Salary',
+    post_content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     user_id: 1
   },
   {
-    title: 'Duis ac nibh.',
-    post_content: 'http://theguardian.com/dui/vel/nisl/duis/ac/nibh.aspx',
+    title: 'Example Technical Interview Questions',
+    post_content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     user_id: 9
   },
   {
-    title: 'Curabitur at ipsum ac tellus semper interdum.',
-    post_content: 'https://reverbnation.com/ligula/sit.jpg',
+    title: 'Tech Transfer - What it is and why Developers are needed in this realm',
+    post_content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     user_id: 5
   },
   {
-    title: 'In hac habitasse platea dictumst.',
-    post_content: 'http://china.com.cn/lectus/vestibulum.json',
+    title: 'How to Teach Coding to Kids',
+    post_content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     user_id: 3
   },
   {
-    title: 'Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.',
-    post_content: 'http://networksolutions.com/nam/ultrices/libero/non/mattis/pulvinar.json',
+    title: 'Best Online Developer Forums',
+    post_content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     user_id: 10
   },
   {
-    title: 'Donec dapibus.',
-    post_content: 'https://instagram.com/ac/neque/duis/bibendum/morbi/non.xml',
+    title: 'Starting Your Own Business',
+    post_content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     user_id: 8
   },
   {
-    title: 'Nulla tellus.',
-    post_content: 'https://lycos.com/natoque/penatibus/et.html',
+    title: 'Getting Your First Role.  What to Expect.',
+    post_content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     user_id: 3
   },
   {
-    title: 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.',
-    post_content: 'https://gmpg.org/lorem.jpg',
+    title: 'The Ethics of Development',
+    post_content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     user_id: 3
   },
   {
     title:
-      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.',
-    post_content: 'https://paginegialle.it/mattis/egestas.jsp',
+      'Best Free Online Coding Classes',
+    post_content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     user_id: 7
   },
 ];
