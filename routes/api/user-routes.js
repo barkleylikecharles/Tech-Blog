@@ -90,7 +90,11 @@ router.post('/login', (req, res) => {
       res.status(400).json({ message: 'Incorrect password' });
       return;
     }
-    res.json({ user: dbUserData, message: 'You are now logged in!' });
+    req.session.save(()=> {
+      req.session.user_id = dbUserData.id;
+      req.session.loggedin = true
+      res.json({ user: dbUserData, message: 'You are now logged in!' });
+    })
 
   });
 });
@@ -138,5 +142,13 @@ router.delete('/:id', (req, res) => {
       res.status(500).json(err);
     });
 });
+
+router.post('/logout', (req, res) => {
+   if (req.session.loggedin) {
+     req.session.destroy(() => {
+       res.json({message: 'You have logged out'})
+     })
+   } else { res.status(404).json({ message: 'User was not logged in' });}
+})
 
 module.exports = router;
